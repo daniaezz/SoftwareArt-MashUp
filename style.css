@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #8A4F7D;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-self: center;
+}
+
+.menu{
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  position: absolute;
+  padding: 10px;
+  display: grid;
+  cursor: pointer;
+}
+
+.bar{
+  justify-self: center;
+  background-color: black;
+  width: 40px;
+  height: 5px;
+}
+
+.main{
+  display: grid;
+  position: absolute;
+  align-content: center;
+  justify-self: center;
+  width: 60em;
+  height: 40em;
+  /* background-color: salmon; */
+  text-align: center;
+}
+
+.search{
+  width: 45em;
+  height: 5em;
+  background-color: #FFB7C3;
+  justify-self: center;
+  margin: 2em;
+  border-radius: 50px;
+  text-align: left;
+  align-content: center;
+}
+
+img{
+  margin: 15px 0px 5px 30px;
+  height: 3em;
+  position: fixed;
+}
+
+.text{
+  font-size: 30pt;
+  font-family: 'Jost', sans-serif;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 15px;
+}
+
+.button{
+  background-color: #FBDBB1;
+  width: 15em;
+  height: 5em;
+  /* margin: 2em 0em 0em 0em; */
+  margin-top: 5em;
+  border-radius: 50px;
+  text-align: left;
+  align-content: center;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.btext{
+  font-size: 30pt;
+  font-family: 'Jost', sans-serif;
+  position: absolute;
+  margin: 10px 0px 0px 40px;
+}
+
+.lyrics{
+  display: grid;
+  position: absolute;
+  justify-self: center;
+  align-content: center;
+  font-size: 30pt;
+  font-family: 'Jost', sans-serif;
+  margin-top: 200px;
+  visibility: hidden;
+}
+
+.menub{
+  display: grid;
+  width: 20em;
+  height: 8em;
+  background-color: #FFB7C3;
+  justify-self: center;
+  margin: 2em;
+  border-radius: 50px;
+  text-align: left;
+  align-items: center;
+}
+
+.textb{
+  display: grid;
+  font-size: 30pt;
+  font-family: 'Jost', sans-serif;
+  position: absolute;
+  justify-self: center;
+  align-content: center;
+}
