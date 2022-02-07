@@ -38,8 +38,8 @@ body{
   justify-self: center;
   width: 60em;
   height: 40em;
-  /* background-color: salmon; */
   text-align: center;
+   z-index: -1;
 }
 
 .search{
