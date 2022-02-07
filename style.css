@@ -115,7 +115,7 @@ img{
 .textb{
   display: grid;
   font-size: 30pt;
-  font-family:
+  font-family: 'Jost', sans-serif;
   position: absolute;
   justify-self: center;
   align-content: center;
