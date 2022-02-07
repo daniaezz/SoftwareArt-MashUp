@@ -1,4 +1,4 @@
 # SoftwareArt-MashUp
-######### Assignment 1 for Software Art
+#### Assignment 1 for Software Art
 ---
 
