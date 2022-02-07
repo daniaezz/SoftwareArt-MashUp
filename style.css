@@ -96,6 +96,7 @@ img{
   font-family: 'Jost', sans-serif;
   margin-top: 200px;
   visibility: hidden;
+  color: white;
 }
 
 .menub{
@@ -108,13 +109,18 @@ img{
   border-radius: 50px;
   text-align: left;
   align-items: center;
+  font-family: 'Jost', sans-serif;
 }
 
 .textb{
   display: grid;
   font-size: 30pt;
-  font-family: 'Jost', sans-serif;
+  font-family:
   position: absolute;
   justify-self: center;
   align-content: center;
+}
+
+.note{
+  font-family: 'Jost', sans-serif;
 }

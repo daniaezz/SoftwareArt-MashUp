@@ -2,7 +2,6 @@ let ran;
 button = document.getElementById('button');
 
 window.addEventListener("load", ()=>{
-  alert("Refresh the page for different Songs");
 
   ran= Math.floor((Math.random() * 3) + 1);
   if(ran == 1){
@@ -39,6 +38,7 @@ window.addEventListener("load", ()=>{
 button.addEventListener("click", ()=>{
   document.getElementById('search1').style.visibility = "hidden";
   document.getElementById('search2').style.visibility = "hidden";
+  document.getElementById('note').style.visibility = "hidden";
   button.style.visibility = "hidden";
   document.getElementById('lyrics').style.visibility = "visible";
 });
